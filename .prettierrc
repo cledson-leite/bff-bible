@@ -1,0 +1,29 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "semi": true,
+  "printWidth": 80,
+  "arrowParens": "avoid",
+  "plugins": ["prettier-plugin-organize-imports"],
+  "organizeImports": {
+    "groups": [
+      [
+        "external",
+        "builtin"
+      ],
+      "internal",
+      "parent",
+      "sibling",
+      "object"
+    ],
+    "spaces": [2, 2],
+    "order": {
+      "external": "asc",
+      "builtin": "asc",
+      "internal": "asc",
+      "parent": "asc",
+      "sibling": "asc",
+      "object": "asc"
+    }
+  }
+}
